@@ -1,0 +1,37 @@
+.table-container {
+    padding: 0 30px;
+}
+
+.ag-theme-alpine .ag-root-wrapper {
+    border: none !important;
+    border-top: 1px solid var(--color-light-grey2) !important;
+}
+
+.ag-theme-alpine .ag-header-cell {
+    background-color: var(--color-white);
+}
+
+.alt-background {
+    background-color: var(--color-light-pink) !important;
+}
+
+.ag-row-hover, .alt-background:hover {
+    /* putting in !important so it overrides the theme's styling as it hovers the row also */
+    background: var(--color-light-aqua) !important;
+}
+
+.ag-header-cell {
+    justify-content: center;
+}
+
+.default-cell {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--color-light-black);
+    padding: 0 10px !important;
+}

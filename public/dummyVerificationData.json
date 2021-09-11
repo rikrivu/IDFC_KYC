@@ -1,0 +1,45 @@
+{
+	"kyc_name": "Rohit Vinay Kulkarni",
+	"kyc_id": "kyc-123",
+	"security_question": [
+        {
+            "question_id": 1,
+            "question": "Touch Your Nose",
+            "type": "image",
+            "url": "https://www.google.com",
+            "start_time": "2:03",
+            "end_time": "2:16",
+            "agent_input": true,
+            "ai_engine_input": false,
+            "name_on_pan": "Rohit Vinay Kulkarni",
+            "number_on_pan": "b645sdbc",
+            "ai_name_on_pan": "Rohit Vinay Kulkarni"
+        },
+        {
+            "question_id": 2,
+            "question": "Touch Your Nose",
+            "type": "image",
+            "url": "https://www.google.com",
+            "start_time": "2:03",
+            "end_time": "2:16",
+            "agent_input": true,
+            "ai_engine_input": true,
+            "name_on_pan": "Rohit Vinay Kulkarni",
+            "number_on_pan": "b645sdbc",
+            "ai_name_on_pan": "Rohit Vinay Kulkarni"
+        },
+        {
+            "question_id": 3,
+            "question": "Touch Your Nose",
+            "type": "image",
+            "url": "https://www.google.com",
+            "start_time": "2:03",
+            "end_time": "2:16",
+            "agent_input": false,
+            "ai_engine_input": true,
+            "name_on_pan": "Rohit Vinay Kulkarni",
+            "number_on_pan": "b645sdbc",
+            "ai_name_on_pan": "Rohit Vinay Kulkarni"
+        }
+    ]
+}

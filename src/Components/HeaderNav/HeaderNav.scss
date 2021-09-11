@@ -1,0 +1,28 @@
+.header-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: var(--color-maroon);
+
+    > div {
+        display: flex;
+
+        .user-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: var(--color-grey);
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            font-size: 12px;
+        }
+
+        span {
+            color: var(--color-white);
+            font-size: 14px;
+        }
+    }
+}

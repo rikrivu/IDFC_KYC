@@ -1,0 +1,39 @@
+.header-btn {
+    background: none;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &:hover, &:focus {
+        outline: none;
+        
+        .sort-icons {
+            color: var(--color-maroon);
+        }
+    }
+
+    .col-title {
+        margin-right: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--color-deep-grey);
+    }
+
+    .sort-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--color-light-grey);
+
+        .sortIcon {
+            font-size: 12px;
+        }
+    }
+}
+
+.sort-btn:hover {
+    cursor: pointer;
+}

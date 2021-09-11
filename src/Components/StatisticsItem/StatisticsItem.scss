@@ -1,0 +1,31 @@
+.assigned, .certified, .red-flag, .passed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+
+    > span {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--color-light-grey3);
+    }
+}
+
+.assigned {
+    color: var(--color-orange);
+}
+
+.certified {
+    color: var(--color-blue);
+}
+
+.red-flag {
+    color: var(--color-red);
+}
+
+.passed {
+    color: var(--color-light-green);
+}

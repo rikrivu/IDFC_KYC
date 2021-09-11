@@ -1,0 +1,9 @@
+.veri-conf-description {
+    padding: 5px 0 15px 0;
+
+    > textarea {
+        padding: 15px;
+        border: 1px solid var(--color-light-grey4);
+        border-radius: 5px;
+    }
+}

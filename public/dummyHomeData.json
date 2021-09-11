@@ -1,0 +1,64 @@
+{
+	"kycs": [
+		{
+			"kyc_id": "kyc-1234",
+			"assigned_on": "2020/10/11",
+			"last_updated": "2020/10/11",
+			"customer_name": "Sara",
+			"agent_name": "Nirupam",
+			"ai_checks": 70,
+			"status": "OPEN"
+		},
+		{
+			"kyc_id": "kyc-1224",
+			"assigned_on": "2020/10/11",
+			"last_updated": "2020/10/11",
+			"customer_name": "Naveen",
+			"agent_name": "Nirupam",
+			"ai_checks": 70,
+			"status": "CLOSE"
+		},
+		{
+			"kyc_id": "kyc-1225",
+			"assigned_on": "2020/04/21",
+			"last_updated": "2020/09/19",
+			"customer_name": "Sara",
+			"agent_name": "Nirupam",
+			"ai_checks": 71,
+			"status": "CLOSE"
+		},
+		{
+			"kyc_id": "kyc-1226",
+			"assigned_on": "2020/01/09",
+			"last_updated": "2020/11/22",
+			"customer_name": "Naveen",
+			"agent_name": "Nirupam",
+			"ai_checks": 74,
+			"status": "OPEN"
+		}
+	],
+	"statistics": [
+		{
+			"display_name": "Assigned KYC",
+			"label": "assigned",
+			"value": 20
+		},
+		{
+			"display_name": "Certified KYC",
+			"label": "certified",
+			"value": 16
+		},
+		{
+			"display_name": "Red Flag KYC",
+			"label": "red-flag",
+			"value": 54
+		},
+		{
+			"display_name": "Passed KYC",
+			"label": "passed",
+			"value": 89
+		}
+	],
+	"size": 200
+
+}

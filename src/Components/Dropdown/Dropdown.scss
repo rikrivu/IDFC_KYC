@@ -1,0 +1,8 @@
+.select-icon {
+    color: var(--color-maroon);
+    transition: all 0.5s ease;
+
+    &:hover {
+        color: var(--color-light-maroon);
+    }
+}

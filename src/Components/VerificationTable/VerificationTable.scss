@@ -1,0 +1,63 @@
+.header-row > div {
+    color: var(--color-light-grey) !important;
+}
+
+.table-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+
+    > div {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--color-light-black);
+        margin: auto;
+        padding: 0 10px;
+    }
+
+    > div:not(:first-of-type) {
+        text-align: center;
+    }
+
+    .sec-ques-col {
+        flex: 0 0 35%;
+    }
+
+    .results-col {
+        flex: 0 0 20%;
+    }
+
+    .yes-no-col {
+        flex: 0 0 7.5%;
+        
+        > svg {
+            font-size: 24px;
+        }
+    }
+
+    .auditor-col {
+        flex: 0 0 15%;
+    }
+}
+
+.odd-row {
+    background: var(--color-very-light-maroon);
+}
+
+.even-row {
+    background: var(--color-faint-maroon);
+}
+
+.green-icon, .red-icon {
+    font-size: 21px;
+}
+
+.green-icon {
+    color: var(--color-green);
+}
+
+.red-icon {
+    color: var(--color-red);
+}
